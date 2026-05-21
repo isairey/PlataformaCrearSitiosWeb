@@ -204,7 +204,7 @@ Sistema de pruebas automatizadas para:
 # 📂 Estructura del proyecto
 
 ```bash
-open-event-wsgen/
+PlataformaCrearSitiosWeb/
 │
 ├── src/
 │   ├── backend/
@@ -268,7 +268,7 @@ Frontend → Express API → Generator → Templates → Deploy
 ## 1️⃣ Clonar repositorio
 
 ```bash
-git clone https://github.com/fossasia/open-event-wsgen.git
+git clone https://github.com/isairey/PlataformaCrearSitiosWeb.git
 ```
 
 ---
@@ -276,7 +276,7 @@ git clone https://github.com/fossasia/open-event-wsgen.git
 ## 2️⃣ Entrar al proyecto
 
 ```bash
-cd open-event-wsgen
+cd PlataformaCrearSitiosWeb
 ```
 
 ---
@@ -365,24 +365,7 @@ POST /generate
 
 ---
 
-# 📸 Vista previa
 
-## 🌐 Open Event Generator
-
-<div align="center">
-
-### 🎫 Dashboard del generador
-![Dashboard](https://images.unsplash.com/photo-1498050108023-c5249f4df085?q=80&w=1200)
-
-### 📅 Sitio web del evento
-![Event](https://images.unsplash.com/photo-1511578314322-379afb476865?q=80&w=1200)
-
-### ☁️ Deploy automático
-![Deploy](https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=1200)
-
-</div>
-
----
 
 # 🧠 Objetivos del proyecto
 
@@ -443,9 +426,9 @@ git push origin feature/nueva-funcionalidad
 
 <div align="center">
 
-## FOSSASIA Open Event Team
+## Isai Reyes - Full Stack & AI Developer
 
-Equipo open source enfocado en plataformas modernas para gestión de eventos y conferencias 🌍
+Desarrollador apasionado por plataformas SaaS, inteligencia artificial y arquitecturas empresariales modernas 🚀
 
 </div>
 
