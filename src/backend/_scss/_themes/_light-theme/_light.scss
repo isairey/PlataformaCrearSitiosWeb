@@ -1,0 +1,27 @@
+@charset "UTF-8";
+@import "../../_base/config";
+
+// 1.Overwrite stuff
+
+$corp-color: $gray-light;
+$corp-color-darken: darken($corp-color, 10%);
+$corp-color-second: $blue;
+$corp-color-second-dark: darken($corp-color-second, 10%);
+$base-font-size: 1.6;
+$base-font-family: Droid Sans, Georgia, Arial;
+$main-background: light;
+$base-border-radius: 0;
+$base-border-color: $gray-light;
+$main-background: $white;
+$schedule-color: #black;
+$event-color: $gray-dark;
+$head-color:$light-black;
+$room-color:$black;
+// Currently used for the filter search box.  Matches the filter button borders (currently #ccc from Bootstrap's .btn-default)
+$filter-input-border-color: #ccc;
+$date-button:$gray-extra-light;
+$text-color: $gray-dark;
+$navbar-text-color: $black;
+$background: $white;
+
+@import "../../application";
