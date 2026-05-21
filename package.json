@@ -48,7 +48,7 @@
     "gulp-concat": "^2.6.1",
     "gulp-esbuild": "^0.4.5",
     "handlebars": "^4.7.7",
-    "jsonapi-serializer": "^3.6.7",
+    "jsonapi-serializer": "^3.6.9",
     "jsonfile": "^6.1.0",
     "moment": "^2.27.0",
     "node-sass": "^4.14.0",
