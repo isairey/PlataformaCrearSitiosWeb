@@ -11,181 +11,277 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Node.js-Backend-339933?style=for-the-badge&logo=node.js&logoColor=white" />
-  <img src="https://img.shields.io/badge/Express.js-API-black?style=for-the-badge&logo=express&logoColor=white" />
-  <img src="https://img.shields.io/badge/Socket.IO-Realtime-010101?style=for-the-badge&logo=socket.io&logoColor=white" />
-  <img src="https://img.shields.io/badge/SASS-Styling-CC6699?style=for-the-badge&logo=sass&logoColor=white" />
-  <img src="https://img.shields.io/badge/Open_Source-FOSSASIA-blue?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Node.js-Backend-339933?style=for-the-badge&logo=node.js&logoColor=white">
+  <img src="https://img.shields.io/badge/Express.js-API-black?style=for-the-badge&logo=express&logoColor=white">
+  <img src="https://img.shields.io/badge/Socket.IO-Realtime-010101?style=for-the-badge&logo=socket.io&logoColor=white">
+  <img src="https://img.shields.io/badge/Handlebars-Templates-f0772b?style=for-the-badge">
+  <img src="https://img.shields.io/badge/SASS-Styling-CC6699?style=for-the-badge&logo=sass&logoColor=white">
+</p>
+
+<p align="center">
+  <a href="#-acerca-del-proyecto">Acerca</a> •
+  <a href="#-características">Características</a> •
+  <a href="#-tecnologías-utilizadas">Tecnologías</a> •
+  <a href="#-instalación">Instalación</a> •
+  <a href="#-api-rest">API</a>
 </p>
 
 </div>
 
 ---
 
-# 📖 Descripción
+# 🎫 Acerca del proyecto
 
-**Open Event Website Generator** es una plataforma web desarrollada por **FOSSASIA** que automatiza la creación de sitios web para eventos mediante plantillas dinámicas y archivos estructurados en formato JSON.
+**Open Event Website Generator** es una plataforma open source desarrollada para automatizar la creación de sitios web para eventos, conferencias, hackathons y meetups utilizando archivos JSON y recursos multimedia.
 
 El sistema permite:
 
-- Generar páginas web completas para eventos
-- Subir archivos comprimidos con información del evento
-- Desplegar sitios automáticamente
-- Integrarse mediante API REST
-- Publicar eventos en GitHub Pages o servidores externos
+- 🌐 Generar sitios web dinámicos para eventos
+- 📦 Importar datos mediante archivos ZIP
+- ⚡ Crear páginas automáticamente
+- ☁️ Desplegar eventos en GitHub Pages
+- 🔌 Integrarse mediante API REST
+- 📊 Gestionar speakers, tracks y schedules
 
-Está diseñado para conferencias, congresos, meetups, hackathons y eventos tecnológicos.
+La plataforma forma parte del ecosistema **FOSSASIA Open Event**.
 
 ---
 
-# ✨ Características Principales
+# ✨ Características
 
-## 🎟️ Generador Automático de Eventos
+## 🎟️ Generador de eventos
 
-- Generación completa de sitios web dinámicos
-- Soporte para múltiples temas visuales
-- Exportación lista para producción
+- 🌐 Generación automática de sitios web
+- ⚡ Renderizado dinámico de contenido
+- 📱 Diseño responsive
+- 🎨 Soporte para temas visuales
+- 🧩 Plantillas reutilizables
 
-## 📦 Importación de Datos
+---
 
-- Soporte para archivos JSON
-- Manejo de imágenes y multimedia
-- Compatibilidad con Open Event Format
+## 📦 Gestión de contenido
 
-## 🌐 API REST
+- 👨‍🏫 Speakers
+- 🗓️ Schedules
+- 🎤 Sessions
+- 🏢 Rooms
+- 🧭 Tracks
+- 🤝 Sponsors
+- 📍 Locations
 
-- Generación mediante endpoints REST
-- Automatización de procesos
-- Integración con plataformas externas
+---
 
-## ☁️ Despliegue Automático
+## ☁️ Deploy automático
 
+- 🚀 GitHub Pages
+- ☁️ AWS
+- 🌍 Digital Ocean
+- 🖥️ Google Cloud
+- 📡 FTP Deploy
+
+---
+
+## 🔌 API REST
+
+- ⚡ Generación vía API
+- 📦 Upload de eventos
+- 🌐 Integraciones externas
+- 🔄 Automatización de procesos
+
+---
+
+## 🧪 Testing automatizado
+
+- ✅ Selenium WebDriver
+- ⚡ Testing de páginas generadas
+- 📊 Validación automática
+- 🔍 Verificación de eventos
+
+---
+
+# 👨‍💻 Componentes del sistema
+
+## 🌍 Frontend Generator
+
+Interfaz web utilizada para:
+
+- 📤 Subir archivos ZIP
+- 🎨 Elegir temas
+- ⚙️ Configurar eventos
+- 🚀 Generar sitios web
+
+---
+
+## ⚡ Backend Generator
+
+Motor principal encargado de:
+
+- 📦 Procesar JSON
+- 🧩 Renderizar templates
+- 🌐 Generar páginas HTML
+- ☁️ Gestionar despliegues
+
+---
+
+## 🧪 Selenium Testing
+
+Sistema de pruebas automatizadas para:
+
+- 🎤 Speakers pages
+- 📅 Schedule pages
+- 🏢 Rooms
+- 🧭 Tracks
+- 📄 Sessions
+
+---
+
+# 🛠️ Tecnologías utilizadas
+
+## ⚙️ Backend
+
+<p>
+  <img src="https://skillicons.dev/icons?i=nodejs,express,js" />
+</p>
+
+- Node.js
+- Express.js
+- JavaScript
+- REST API
+
+---
+
+## 🎨 Frontend
+
+<p>
+  <img src="https://skillicons.dev/icons?i=html,css,sass" />
+</p>
+
+- HTML5
+- CSS3
+- SASS
+- Responsive Design
+
+---
+
+## 🧩 Templates & Real Time
+
+<p>
+  <img src="https://skillicons.dev/icons?i=socketio" />
+</p>
+
+- Handlebars
+- Socket.IO
+- Dynamic Rendering
+- Real-time generation
+
+---
+
+## ☁️ Cloud & Deploy
+
+<p>
+  <img src="https://skillicons.dev/icons?i=aws,github" />
+</p>
+
+- AWS S3
 - GitHub Pages
-- AWS
-- Google Cloud
-- Digital Ocean
 - FTP Deploy
+- Cloud Hosting
 
-## 📊 Gestión de Contenido
+---
 
-- Speakers
-- Tracks
-- Sponsors
-- Sessions
-- Schedule
-- Locations
-- Code of Conduct
+## 🧪 Testing
 
-## 🧪 Testing Automatizado
+<p>
+  <img src="https://skillicons.dev/icons?i=selenium" />
+</p>
 
 - Selenium WebDriver
-- Testing de páginas generadas
-- Validación automática de eventos
+- Mocha Testing
+- Automated UI Testing
 
 ---
 
-# 🏗️ Arquitectura del Proyecto
+# 📂 Estructura del proyecto
 
 ```bash
 open-event-wsgen/
-├── src/
-│   ├── backend/          # Lógica del generador
-│   ├── selenium/         # Testing automatizado
-│   ├── www/              # Frontend del generador
-│   └── app.js            # Servidor Express principal
 │
-├── docs/                 # Documentación
-├── config.json           # Configuración global
-├── test/                 # Tests
-└── package.json
+├── src/
+│   ├── backend/
+│   ├── selenium/
+│   ├── www/
+│   └── app.js
+│
+├── docs/
+├── test/
+├── config.json
+├── package.json
+└── README.md
 ```
 
 ---
 
-# ⚙️ Tecnologías Utilizadas
+# 🏗️ Arquitectura del sistema
 
-| Tecnología | Uso |
-|---|---|
-| Node.js | Backend principal |
-| Express.js | API y servidor |
-| Socket.IO | Comunicación en tiempo real |
-| Handlebars | Motor de plantillas |
-| SASS | Estilos avanzados |
-| Selenium | Testing automatizado |
-| AWS S3 | Almacenamiento |
-| GitHub API | Deploy automático |
+## ⚡ Flujo principal
+
+```text
+Usuario → Upload ZIP → Generator Engine → Render Templates → Deploy Website
+```
 
 ---
 
-# 🧩 Componentes del Sistema
+## 🌐 Arquitectura general
 
-## 🌍 Frontend Generator
-
-Interfaz web para:
-
-- Subir archivos ZIP
-- Configurar eventos
-- Seleccionar temas
-- Generar páginas web
-
-## ⚡ Backend Generator
-
-Motor encargado de:
-
-- Procesar JSON
-- Renderizar templates
-- Generar HTML
-- Optimizar assets
-- Desplegar sitios
-
-## 🧪 Selenium Testing
-
-Sistema automatizado para validar:
-
-- Speakers pages
-- Schedule pages
-- Sessions
-- Tracks
-- Rooms
-- Generator UI
+```text
+Frontend → Express API → Generator → Templates → Deploy
+```
 
 ---
 
-# 📄 Plantillas Disponibles
+# 📄 Plantillas disponibles
 
-El generador utiliza plantillas Handlebars:
-
-| Plantilla | Descripción |
+| Template | Descripción |
 |---|---|
 | `event.hbs` | Página principal |
 | `schedule.hbs` | Agenda del evento |
-| `speakers.hbs` | Speakers |
-| `rooms.hbs` | Salas |
-| `session.hbs` | Sesiones |
+| `speakers.hbs` | Lista de speakers |
+| `rooms.hbs` | Salas y venues |
+| `session.hbs` | Sesiones individuales |
 | `CoC.hbs` | Código de conducta |
 
 ---
 
-# 🚀 Instalación
+# ⚡ Instalación
 
 ## 📋 Requisitos
 
 - Node.js
 - npm
 - Git
+- Navegador moderno
 
 ---
 
-## 🔧 Clonar el proyecto
+# 🚀 Configuración del proyecto
+
+## 1️⃣ Clonar repositorio
 
 ```bash
 git clone https://github.com/fossasia/open-event-wsgen.git
+```
+
+---
+
+## 2️⃣ Entrar al proyecto
+
+```bash
 cd open-event-wsgen
 ```
 
 ---
 
-## 📦 Instalar dependencias
+## 3️⃣ Instalar dependencias
 
 ```bash
 npm install
@@ -193,53 +289,19 @@ npm install
 
 ---
 
-## ▶️ Ejecutar el proyecto
+## 4️⃣ Ejecutar servidor
 
 ```bash
 npm start
 ```
 
-Servidor disponible en:
+---
+
+## 🌐 Acceder al sistema
 
 ```bash
 http://localhost:5000
 ```
-
----
-
-# 🌐 Uso del Generador
-
-## 📁 Subir Evento
-
-El usuario debe subir un archivo ZIP que contenga:
-
-- event.json
-- speakers.json
-- sessions.json
-- sponsors.json
-- tracks.json
-- locations.json
-
----
-
-## ⚙️ Configurar
-
-Seleccionar:
-
-- Tema visual
-- API version
-- Session style
-- Deployment mode
-
----
-
-## 🎉 Generar Sitio
-
-Opciones disponibles:
-
-- Descargar ZIP
-- Deploy automático
-- Publicar en GitHub Pages
 
 ---
 
@@ -251,115 +313,160 @@ Opciones disponibles:
 POST /generate
 ```
 
+---
+
 ## Parámetros
 
 | Parámetro | Descripción |
 |---|---|
 | name | Nombre del sitio |
 | email | Correo del usuario |
-| datasource | Fuente de datos |
+| datasource | Tipo de fuente |
 | apiendpoint | Endpoint externo |
 
 ---
 
-# ☁️ Integraciones
+# 📊 Funcionalidades principales
 
-## AWS S3
+## 🎟️ Event Generator
 
-- Almacenamiento temporal
-- Descargas automáticas
-
-## GitHub Pages
-
-- Deploy automático
-- Publicación instantánea
-
-## SMTP / SendGrid
-
-- Notificaciones por correo
-- Alertas de generación
+- ⚡ Generación dinámica
+- 🌐 Multi-event support
+- 📦 ZIP processing
+- 🎨 Templates dinámicos
 
 ---
 
-# 🧪 Testing
+## ☁️ Deploy automático
 
-## Ejecutar tests
-
-```bash
-npm test
-```
-
-## Ejecutar test específico
-
-```bash
-npx mocha -b test/generatorAndSchedule.js
-```
+- 🚀 GitHub Pages
+- 🌍 Cloud Deploy
+- 📡 FTP Integration
+- 📦 ZIP Export
 
 ---
 
-# 📊 Características Técnicas
+## 🧪 Testing
 
-- Arquitectura modular
-- Plantillas reutilizables
-- Generación dinámica
-- Optimización automática
-- Multi-event support
-- Renderizado server-side
-- Compatible con Open Event Format
+- 🔍 Selenium Tests
+- 📊 UI Validation
+- ⚡ Automated checks
 
 ---
 
 # 🔐 Seguridad
 
-- Validación de uploads
-- Sanitización de datos
-- Manejo seguro de APIs
-- Variables de entorno protegidas
+## 🛡️ Protección del sistema
+
+- 📦 Validación de uploads
+- 🔒 Sanitización de datos
+- ⚡ Variables de entorno
+- ☁️ Gestión segura de APIs
 
 ---
 
-# 🌍 Open Source
+# 📸 Vista previa
 
-Proyecto desarrollado como parte de:
+## 🌐 Open Event Generator
 
-## ❤️ FOSSASIA Open Event Project
+<div align="center">
 
-Plataforma open source enfocada en:
+### 🎫 Dashboard del generador
+![Dashboard](https://images.unsplash.com/photo-1498050108023-c5249f4df085?q=80&w=1200)
 
-- Gestión de conferencias
-- Automatización de eventos
-- Ecosistema de herramientas colaborativas
+### 📅 Sitio web del evento
+![Event](https://images.unsplash.com/photo-1511578314322-379afb476865?q=80&w=1200)
+
+### ☁️ Deploy automático
+![Deploy](https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=1200)
+
+</div>
+
+---
+
+# 🧠 Objetivos del proyecto
+
+## 🎯 Desarrollo Open Source
+
+- Arquitectura Node.js
+- Renderizado dinámico
+- APIs REST
+- Deploy automático
+- Testing automatizado
+- Cloud hosting
+- Gestión de eventos
+
+---
+
+# 🚧 Roadmap
+
+## 🔮 Próximas mejoras
+
+- 🤖 AI Event Assistant
+- 📱 Progressive Web App
+- 🌐 Multi-language support
+- 📊 Analytics dashboard
+- 🔔 Push notifications
+- ☁️ Serverless deployment
 
 ---
 
 # 🤝 Contribuciones
 
-Las contribuciones son bienvenidas.
+Las contribuciones son bienvenidas ❤️
 
-## Flujo recomendado
+## Cómo contribuir
+
+1. Fork del proyecto
 
 ```bash
-git checkout development
 git checkout -b feature/nueva-funcionalidad
 ```
 
+2. Commit
+
+```bash
+git commit -m "✨ Nueva funcionalidad"
+```
+
+3. Push
+
+```bash
+git push origin feature/nueva-funcionalidad
+```
+
+4. Pull Request 🚀
+
 ---
 
-# 📜 Licencia
-
-Proyecto distribuido bajo licencia Open Source por **FOSSASIA**.
-
----
-
-# 👨‍💻 Fundador del Proyecto
+# 👨‍💻 Desarrollador
 
 <div align="center">
 
 ## FOSSASIA Open Event Team
 
-Plataforma colaborativa enfocada en herramientas open source para eventos, conferencias y comunidades tecnológicas.
+Equipo open source enfocado en plataformas modernas para gestión de eventos y conferencias 🌍
 
 </div>
-## LICENSE
 
-OpenEvent Website Generator - A webapp and it's generator, written as part of the FOSSASIA Open Event project. The Open Event project aims to make server and client software required for hosting events/conferences easy to build and configure. Copyright (C) 2016, FOSSASIA. This program is free software: you can redistribute it and/or modify it. Please refer to the license document for more information.
+---
+
+# 🌟 Apoya el proyecto
+
+⭐ Dale una estrella  
+🍴 Haz fork  
+📢 Comparte el proyecto
+
+---
+
+# 📜 Licencia
+
+Proyecto Open Source desarrollado bajo la comunidad **FOSSASIA** para automatización de eventos y generación de sitios web dinámicos.
+
+---
+
+<div align="center">
+
+### 🎫 Open Event Website Generator — eventos inteligentes y automatizados 🚀
+
+</div>
